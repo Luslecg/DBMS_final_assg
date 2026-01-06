@@ -1,7 +1,9 @@
 Benchmarking Performance of NoSQL Databases for E-Commerce
-
+-----------------------------------------------------------------------------------------------------------------------
 This repository contains the implementation, benchmarking scripts, datasets, and experimental results for a comparative performance evaluation of NoSQL databases in an e-commerce context.
 The study benchmarks MongoDB, CouchDB, and Redis under identical workloads and hardware conditions to evaluate their suitability for modern e-commerce systems.
+
+-----------------------------------------------------------------------------------------------------------------------
 
 This project was completed as part of a Database Management Systems (DBMS) final assessment at Sunway University.
 Subject: SEG2102 Database Management Systems
@@ -22,21 +24,14 @@ Sunway University, Malaysia
 Project Objectives
 
 The main objective of this project is to evaluate and compare the performance characteristics of three widely used NoSQL databases for e-commerce workloads:
-
 MongoDB – Document-oriented database
-
 CouchDB – Distributed document database
-
 Redis – In-memory key-value store
 
 The study focuses on answering:
-
 Which NoSQL database provides lowest latency for user-facing operations?
-
 Which database delivers highest throughput under transactional workloads?
-
 How do these databases scale under concurrent access?
-
 Which database is best suited for specific e-commerce tasks such as add-to-cart operations?
 
 | Database | Type                  | Key Strength                             |
@@ -52,56 +47,37 @@ Which database is best suited for specific e-commerce tasks such as add-to-cart 
 | E-Commerce Transactions        | Analytical queries       |
 | Fashion Product Images (Small) | Product catalog data     |
 
+-----------------------------------------------------------------------------------------------------------------------
 Experimental Setup
-
+-----------------------------------------------------------------------------------------------------------------------
 Environment: Local single-node benchmarking
-
 OS: Windows 10
-
 CPU: AMD Ryzen 7 5700U
-
 RAM: 8 GB
-
 Storage: 512 GB SSD
 
 To ensure fairness:
-
 Only one database ran at a time
-
 All databases used default configurations
-
 Datasets and workloads were identical
-
 Experiments were repeated and averaged
-
 Performance Metrics
 
 The following metrics were measured (SI units used throughout):
-
 Latency (ms)
-
 Read latency
-
 Scan latency (range queries)
-
 Insert latency
-
 Update latency
-
 Throughput (operations/second)
-
 Single-threaded throughput
-
 Multi-threaded scalability (up to 200 threads)
-
 Application-Level Metric
-
 Add-to-Cart throughput (combined read + write workflow)
-
 Resource Usage
-
 Memory consumption (MB)
 
+-----------------------------------------------------------------------------------------------------------------------
 | Workload    | Description                      |
 | ----------- | -------------------------------- |
 | Read        | Single record retrieval          |
@@ -109,7 +85,7 @@ Memory consumption (MB)
 | Insert      | New record creation              |
 | Update      | Record modification              |
 | Add-to-Cart | Realistic e-commerce transaction |
-
+-----------------------------------------------------------------------------------------------------------------------
 ## Setup and Installation
 
 ### Database Software

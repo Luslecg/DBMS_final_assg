@@ -7,15 +7,18 @@ This project was completed as part of a Database Management Systems (DBMS) final
 Subject: SEG2102 Database Management Systems
 Institution: Sunway University
 Year: 2024/2025
-
+-----------------------------------------------------------------------------------------------------------------------
 Authors
-Ivan Sing Wen Sie (21063698)
-Beatrice Chai Xin Xuan (21060835)
-Lai Yi Huey (21069620)
+| Name                  | Student ID |
+|-----------------------|------------|
+| Ivan Sing Wen Sie     | 21063698   |
+| Beatrice Chai Xin Xuan| 21060835   |
+| Lai Yi Huey           | 21069620   |
+
 
 School of Engineering and Technology
 Sunway University, Malaysia
-
+-----------------------------------------------------------------------------------------------------------------------
 Project Objectives
 
 The main objective of this project is to evaluate and compare the performance characteristics of three widely used NoSQL databases for e-commerce workloads:
